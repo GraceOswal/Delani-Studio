@@ -19,5 +19,5 @@ section{
     padding:10px;
 }
 .img{
-    background-img: img src="./footstep.jpg";
+    float: center;
 }
