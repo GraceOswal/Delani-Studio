@@ -21,3 +21,15 @@ section{
 .img{
     float: center;
 }
+li{
+    dispaly: inline;
+}
+ul.topnav{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidde
+    position:fixed
+    top:0;
+    width: 100%;
+}
