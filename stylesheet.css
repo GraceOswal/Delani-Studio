@@ -1,35 +1,72 @@
-h1{
+h1 {
     text-align: center;
 }
-h1 {align:right;
+
+h1 {
+    box-align: right;
     font-size: 10px;
-    font-color: brown;
+    outline-color: brown;
 }
+
 .header {
-    background-color:none;
-    color:white;
+    background-color: none;
+    color: white;
     float: center;
-    text-align:center;
-    padding:5px;
+    text-align: center;
+    padding: 5px;
     border: round;
 }
-section{
-    width:350px;
-    float:center;
-    padding:10px;
+
+section {
+    width: 350px;
+    float: center;
+    padding: 10px;
 }
-.img{
+
+.img {
     float: center;
 }
-li{
-    dispaly: inline;
+
+ul.topnav li {
+    display: inline;
+    float: left;
 }
-ul.topnav{
-    list-style-type:none;
+
+ul.topnav {
+    list-style-type: none;
     margin: 0px;
     padding: 0px;
-    overflow:hidde
-    position:fixed
-    top:0;
+    overflow: hidden;
+    background-color: #a9a9a9;
+    position: fixed top: 0;
     width: 100%;
+}
+
+ul.topnavli a: hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (min-width:480px)and (max-width:768px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+    body {
+        background-color: #000000;
+        color: white;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background-color: #5A6900;
+    }
 }
