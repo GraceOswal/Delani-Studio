@@ -22,8 +22,8 @@ To get a local copy of the site:
 *Launch* `index.html` file.
 
 ## Technologies used.
-* HTML5
-* CSS3
+* HTML
+* CSS
 * Bootstrap
 * Javascript
 * JQuery
