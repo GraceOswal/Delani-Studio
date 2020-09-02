@@ -37,7 +37,7 @@ To get a local copy of the site:
 
 
 ## License
->MIT LICENSE &copy; 2019 Grace
+>GPL-3.0 License; 2019 Grace
 
 ## Collaborate
 To contribute to Delani studio, reach me on my [Email](graceoswal88@gmail.com).
