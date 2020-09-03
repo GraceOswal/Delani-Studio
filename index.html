@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Delani Studio</title>
    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c6aebe132f64c2bf8c5e26aed/302219c8858df0cae825cc432.js");</script>
+<script type="text/javascript" charset="utf-8" src="//downloads.mailchimp.com/js/signup-forms/popup/1.0/popup.js"></script>
+<script src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
 </head>
 
 <body>
@@ -178,5 +181,23 @@
 <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
 <script src="js/script.js"></script>
 <script src="js/mailchimp.js"></script>
+
+    <!-- MC BANNER -->
+    <div class="mc-banner" data-dojo-attach-point="bannerContainer" style="display: none;">
+        <div class="mc-layout__bannerContent">
+            <iframe src="about:blank" marginwidth="0" marginheight="0" scrolling="no" style="width:100%;" data-dojo-attach-point="iframeBannerContainer" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- MC MODAL -->
+    <div class="mc-modal" data-dojo-attach-point="modalContainer" style="display: none;">
+        <div class="mc-closeModal" data-action="close-mc-modal" data-dojo-attach-point="modalClose"></div>
+        <div class="mc-layout__modalContent">
+            <iframe src="about:blank" marginwidth="0" marginheight="0" style="width:100%;" data-dojo-attach-point="iframeModalContainer" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- MC MODAL OVERLAY -->
+    <div class="mc-modal-bg" data-dojo-attach-point="modalOverlay" style="display: none;"></div>
 
 </html>
