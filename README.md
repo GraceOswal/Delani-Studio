@@ -1,6 +1,6 @@
 # Delani-Studio
 
-[checkout my page]graceoswal.github.io/delani-studio/
+[checkout my page]https://github.com/GraceOswal/Delani-Studio.git
 
 ## Description.
 Delani Studio is a site built to practice concepts learnt including JQuery, bootstrap, javascript and working with APIS's.
