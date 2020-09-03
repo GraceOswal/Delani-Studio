@@ -41,7 +41,7 @@ body {
 }
 
 .jumbotron-fluid {
-    background-image: url("../images/backgrounds/h_img.jpg");
+    background-image: url("../images/backgrounds/step_image.jpg");
     background-size: cover;
     height: 668px;
 }
@@ -53,31 +53,31 @@ body {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
     }
-    40% {
-        transform: translateY(-55px);
+    50% {
+        transform: translateY(-60px);
     }
-    60% {
-        transform: translateY(-45px);
+    70% {
+        transform: translateY(-40px);
     }
 }
 
 .about {
-    height: 250px;
+    height: 200px;
 }
 
 .about h1 {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .services {
-    background-image: url("../images/backgrounds/s_image.jpg");
+    background-image: url("../images/backgrounds/laptop_image.jpg");
     height: 280px;
 }
 
 .services h1 {
     position: relative;
-    top: 30px;
-    margin-bottom: 20px;
+    top: 40px;
+    margin-bottom: 30px;
 }
 
 .small-overlay {
@@ -87,28 +87,28 @@ body {
 
 
 .what-we-do h1 {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 figcaption{
     margin-top: 20px;
 }
 
 .portfolio {
-    /*height: 650px;*/
+    /*height: 660px;*/
     padding-bottom: 50px;
 }
 
 .contacts {
-    background-image: url("../images/backgrounds/c_image.jpg");
+    background-image: url("../images/backgrounds/machine_image.jpg");
     background-size: cover;
 }
 
 .contacts h1 {
     position: relative;
-    top: 30px;
+    top: 35px;
 }
 .text{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .contact-overlay {
@@ -137,7 +137,7 @@ input.error {
     color: red;
 }
 .email{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .social{
     justify-content:center;
