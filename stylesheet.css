@@ -41,7 +41,7 @@ body {
 }
 
 .jumbotron-fluid {
-    background-image: url("../images/backgrounds/step_image.jpg");
+    background-image: url("../images/backgrounds/steps_image.jpg");
     background-size: cover;
     height: 668px;
 }
